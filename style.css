@@ -1,0 +1,103 @@
+/* Warna dasar */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form */
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #66a6ff;
+  outline: none;
+  margin-right: 10px;
+}
+
+input:focus {
+  border-color: #3a7bd5;
+  box-shadow: 0 0 5px rgba(58,123,213,0.5);
+}
+
+/* Tombol */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn.tambah {
+  background: #3a7bd5;
+}
+
+.btn.tambah:hover {
+  background: #2a5db0;
+}
+
+.btn.edit {
+  background: #f39c12;
+}
+
+.btn.edit:hover {
+  background: #d35400;
+}
+
+.btn.hapus {
+  background: #e74c3c;
+}
+
+.btn.hapus:hover {
+  background: #c0392b;
+}
+
+/* List */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  background: #f4f6ff;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+li span {
+  flex: 1;
+  margin-right: 10px;
+}
